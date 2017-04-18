@@ -1,6 +1,7 @@
 import java.util.ArrayList;
 
 class Thirteen {
+	
 /* When you divide the successive powers of 10 by 13 you get the following remainders of the integer divisions:
 1, 10, 9, 12, 3, 4.
 
