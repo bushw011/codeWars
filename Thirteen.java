@@ -1,7 +1,17 @@
 import java.util.ArrayList;
 
 class Thirteen {
+/* When you divide the successive powers of 10 by 13 you get the following remainders of the integer divisions:
+1, 10, 9, 12, 3, 4.
 
+Then the whole pattern repeats.
+
+Hence the following method: Multiply the right most digit of the number with the left most number in the sequence shown above, 
+the second right most digit to the second left most digit of the number in the sequence. 
+The cycle goes on and you sum all these products. Repeat this process until the sequence of sums is stationary. */
+	
+	
+	
     public static long thirt(long n) {
         int[] pwrsOf13 = {1, 10, 9, 12, 3, 4};
 		int output = 0;
