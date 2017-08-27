@@ -1,5 +1,6 @@
 public class Ordering {
 	// Given a string, you need to write a method that order every letter in this string in ascending order.
+	// Hey, this is a test!
   public String orderWord(String s){
     String output = "";
 		if (s == null || s.length() == 0){
